@@ -1,0 +1,26 @@
+Area of Square =	4.00 
+Area of Triangle =	6.00 
+Area of Rectangle =	12.00 
+Area of Rectangle =	15.00 
+Area of Trapezoid =	24.00 
+Area of Square =	36.00 
+Area of Circle =	50.27 
+Area of Circle =	50.27 
+Area of Rectangle =	60.00 
+Area of Circle =	78.54 
+Area of Parallelogram =	98.00 
+
+
+The Summary of Results: 
+Total Number of Rectangles =	3 
+Total Area of Rectangles =	87.00 
+Total Number of Sqaures =	2 
+Total Area of Squares =		40.00 
+Total Number of Triangles =	1 
+Total Area of Triangles =	6.00 
+Total Number of Circles =	3 
+Total Area of Circles =		179.08 
+Total Number of Parallelograms = 1 
+Total Area of Parallelograms =	98.00 
+Total Number of Trapezoids =	1 
+Total Area of Trapezoids =	24.00 
