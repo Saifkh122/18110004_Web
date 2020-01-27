@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ministry of Education| Parents</title>
+        <link rel="stylesheet" href="Parents.css">
+        <link rel="shortcut icon" href="http://www.moe.gov.jo/sites/default/files/logo_0.png" type="image/png">
+        <link href="https://fonts.googleapis.com/css?family=Gelasio|Merriweather|Roboto+Condensed&display=swap" rel="stylesheet">
+
+    </head>
+    <body class="body">
+        <div id="container">
+            <div id="head">
+                <div class="title">
+                    <div class="title1">
+                        <img class="logo" src="country_geography_world_map-77-512.png">
+                        <ul>
+                            <h1>Jordan Education System</h1>
+                            <h3>Monitor Your Child</h3>
+                        </ul>
+                    </div>
+                    <div class="return-home">
+                        <a class="format-hyper" href="http://moejo.epizy.com/Home.html"><h2>Return home</h2></a>
+                    </div>
+                </div>
+            </div>
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+            <div id="middle-contents">
+                <div class="aboutus-links">
+                    <ul>
+                        <a class="links" href="http://moejo.epizy.com/Overview.html"><h2>Overview</h2></a>
+                        <a class="links-active" href="http://moejo.epizy.com/kindergartenAndPreschool.html"><h2>Kindergarten and Preschool</h2></a>
+                        <a class="links" href="http://moejo.epizy.com/Parent-Middleschool.html"><h2>Middle School</h2></a>
+                        <a class="links" href="http://moejo.epizy.com/Parent-Highschool.html"><h2>High School</h2></a>
+                    </ul>
+                </div>
+                <div class="first-link">
+                    <h2>Kindergarten and Preschool</h2>
+                    <ul>
+                        <form name="login">
+                        <div class="login">
+                            <h3 class="parent-id" >Parent ID</h3>
+                            <input class="login-input" type="text" placeholder="Ex: 18110004" name="user">
+                        </div>
+                        <div class="login">
+                            <h3 class="parent-id" >Password</h3>
+                            <input class="login-input2" type="password" name="pass">
+                        </div>
+                        <button class="login-button" value="login" onclick="check(this.form)">login</button>
+                        </form>
+                    </ul>
+                    <br/>
+                    <script>
+                        function check(form){
+                            if(form.user.value == "18110004" && form.pass.value == "123"){
+                                window.open('http://moejo.epizy.com/Parent-kindergartenAndPreschool-loginpage-Marks.html')
+                            }
+                            else{
+                                alert("Parent ID or passward are Incorrect")
+                            }
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+
+
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->          
+        <div id="footer">
+            <div class="format-footer"> 
+                <img class="logo-footer" src="https://www.tipntag.com/files/get/original/place/_540c67a51a18f3.60317532_tumblr_marf16VEop1r8krr6.jpg" alt="">
+                <ul class="moe-footer">
+                    <h1>Ministry of Education</h1><br/>
+                    <h2>Copywrites Reserved/2019</h2>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

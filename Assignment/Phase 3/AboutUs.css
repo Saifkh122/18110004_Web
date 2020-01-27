@@ -70,11 +70,11 @@ font-family: 'Merriweather', serif;
     width: 50%;
 }
 .image{
-    z-index: 1;
-    box-shadow: chartreuse;
+    box-shadow: orange 0px 10px 10px;
     text-align: center;
     border-radius: 3%;
     width: 100%;
+    filter: opacity(0.9);
 }
 .format-footer{
     padding-left: 10%;

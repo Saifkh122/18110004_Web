@@ -1,0 +1,124 @@
+.body{
+    width: 100%;
+
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 12%;
+    padding-top: 5%;
+    color: white;  
+    background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);
+    margin-left: -1%;
+    margin-top: -1%;
+    padding-bottom: 10%;  
+}
+
+#head{
+flex-basis: 10%;
+font-family: 'Merriweather', serif;
+
+}
+
+#middle-contents{
+    flex-basis: 80%;
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#footer{
+    flex-basis: 20%;
+    display: flex;
+    width: 100%;   
+}
+
+.logo{
+    filter: brightness(0) invert(1);
+    opacity: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+.title{
+    border-bottom: solid thin white;
+    width: 70%;
+    display: flex;
+    padding-left: 5%;
+}
+.title1{
+    display: flex;
+    width: 80%;
+}
+.return-home{
+    padding-top: 8%;
+    
+}
+.format-hyper{
+    text-decoration: none;
+    text-emphasis: none;
+    color: whitesmoke;
+}
+.aboutus-links{
+    border-right: solid thin white;
+    width: 25%;
+    margin-top: 1%;
+    height: 50vh;
+}
+
+.first-link{
+    padding-left: 5%;
+    width: 50%;
+}
+.image{
+    z-index: 1;
+    box-shadow: chartreuse;
+    text-align: center;
+    border-radius: 3%;
+    width: 100%;
+}
+.format-footer{
+    padding-left: 10%;
+    display: flex;
+}
+.logo-footer{
+    padding-top: 5%;
+    height: 152px;
+    width: 200px;
+}
+
+.moe-footer{
+    padding-top: 3%;
+}
+
+.links{
+    text-decoration: none;
+    text-emphasis: none;
+    color:rgba(255, 244, 244, 0.548) ;
+}
+
+.links-active{
+    text-decoration: none;
+    text-emphasis: none;
+    color:white;
+}
+
+.links:hover{
+    color: white;
+}
+
+.our-minster{
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    box-shadow: rgb(0, 0, 0);
+    z-index: 5;
+    border-radius: 5%;
+}
+
+.par{
+    text-align: justify;
+
+    
+}
